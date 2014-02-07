@@ -8,25 +8,24 @@
 
 </head>
 <body>
-			
-	<div class="top_bar">
-		<a href="#">
-			<div id="menu" class="top_bar_division">
-				<img src="images/MenuLines.png" class="img">
-			</div>
-		</a>
-		<div id="user_idea" class="top_bar_division">
-			<h1>{{seedWord}}</h1>
-		</div>
-		<a href="#">
-			<div id="continue" class="top_bar_division">
-				<h1> > </h1>
-			</div>
-		</a>
-	</div>
 
 	<div class="tiles">
-
+		{{#each wordBank}}
+			<div class="tile">
+				<img class="background_image" src="{{imageURL}}"></img>
+				<p class="phrase">{{word}}</p>	
+			</div>
+		{{/each}}
+	</div>
+			
+	<div class="top_bar">
+		<a href="/">
+			<div class="menu top_bar_division">&#9776;</div>
+		</a>
+		<div class="title top_bar_division">{{seedWord}}</div>
+		<a href="/result">
+			<div id="continue" class="top_bar_division"> > </div>
+		</a>
 	</div>
 
 </body>

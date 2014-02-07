@@ -1,33 +1,121 @@
 {
 	"wordBank": [
-		"never-washed", 
-		"cozy fireplace",
-		"a gold locket", 
-		"a old photograph", 
-		"an atlas",
-		"crunchy",
-		"brittle",
-		"delicate", 
-		"foamy", 
-		"warm embrace",
-		"enthusiasm",
-		"conversation",
-		"cursing",
-		"resentment",
-		"soft clay",
-		"marble sculpture", 
-		"jagged lines",
-		"red", 
-		"purple velvet", 
-		"sunset orange",
-		"a hopeful prayer",
-		"a poem in the sand", 
-		"hopeless wandering", 
-		"carefree sun",
-		"wistful fog",
-		"sumptuous",
-		"metallic",
-		"dirty"
+		{
+			"imageURL": "http://lorempixel.com/400/200/nature/",
+			"word": "never-washed"
+		},
+		{
+			"imageURL": "http://lorempixel.com/400/200/nature/",
+			"word": "red"
+		},
+		{
+			"imageURL": "http://lorempixel.com/400/200/nature/",
+			"word": "sunset orange"
+		},
+		{
+			"imageURL": "http://lorempixel.com/400/200/nature/",
+			"word": "purple velvet"
+		},
+		{
+			"imageURL": "http://lorempixel.com/400/200/nature/",
+			"word": "conversation"
+		},
+		{
+			"imageURL": "http://lorempixel.com/400/200/nature/",
+			"word": "crunchy"
+		},
+		{
+			"imageURL": "http://lorempixel.com/400/200/nature/",
+			"word": "soft clay"
+		},
+		{
+			"imageURL": "http://lorempixel.com/400/200/nature/",
+			"word": "an atlas"
+		},
+		{
+			"imageURL": "http://lorempixel.com/400/200/fashion/",
+			"word": "a old photograph"
+		},
+		{
+			"imageURL": "http://lorempixel.com/400/200/fashion/",
+			"word": "a gold locket"
+		},
+		{
+			"imageURL": "http://lorempixel.com/400/200/fashion/",
+			"word": "sumptuous"
+		},
+		{
+			"imageURL": "http://lorempixel.com/400/200/fashion/",
+			"word": "cozy fireplace"
+		},
+		{
+			"imageURL": "http://lorempixel.com/400/200/fashion/",
+			"word": "a poem in the sand"
+		},
+		{
+			"imageURL": "http://lorempixel.com/400/200/fashion/",
+			"word": "cozy fireplace"
+		},
+		{
+			"imageURL": "http://lorempixel.com/400/200/fashion/",
+			"word": "hopeless wandering"
+		},
+		{
+			"imageURL": "http://lorempixel.com/400/200/fashion/",
+			"word": "a hopeful prayer"
+		},
+		{
+			"imageURL": "http://lorempixel.com/400/200/fashion/",
+			"word": "marble sculpture"
+		},
+		{
+			"imageURL": "http://lorempixel.com/400/200/fashion/",
+			"word": "metallic"
+		},
+		{
+			"imageURL": "http://lorempixel.com/400/200/fashion/",
+			"word": "jagged lines"
+		},
+		{
+			"imageURL": "http://lorempixel.com/400/200/fashion/",
+			"word": "cursing"
+		},
+		{
+			"imageURL": "http://lorempixel.com/400/200/fashion/",
+			"word": "resentment"
+		},
+		{
+			"imageURL": "http://lorempixel.com/400/200/fashion/",
+			"word": "warm embrace"
+		},
+		{
+			"imageURL": "http://lorempixel.com/400/200/fashion/",
+			"word": "foamy"
+		},
+		{
+			"imageURL": "http://lorempixel.com/400/200/fashion/",
+			"word": "delicate"
+		},
+		{
+			"imageURL": "http://lorempixel.com/400/200/fashion/",
+			"word": "brittle"
+		},
+		{
+			"imageURL": "http://lorempixel.com/400/200/fashion/",
+			"word": "wistful fog"
+		},
+		{
+			"imageURL": "http://lorempixel.com/400/200/fashion/",
+			"word": "dirty"
+		},
+		{
+			"imageURL": "http://lorempixel.com/400/200/fashion/",
+			"word": "carefree sun"
+		},
+		{
+			"imageURL": "http://lorempixel.com/400/200/fashion/",
+			"word": "enthusiasm"
+		}	
 	],
 	"nodes": [
 		{
@@ -75,5 +163,19 @@
 			"source": "n1",
 			"target": "n2"
 		}
+	],
+	"questions": [
+		"If <your thought> was a sweater, how would it feel on your body?",
+		"If <your thought> were to give a gift, what would that gift be?",
+		"If <your thought> was a food, what would its texture be?",
+		"Would you need a spoon, a knife and fork, or chopsticks to eat <your thought>?",
+		"Imagine that <your thought> was placed in a quaint Parisian café - how would it respond?",
+		"What kind of visual art would <your thought> resemble most?",
+		"What kind of art would <your thought> enjoy?",
+		"What color is <your thought>?",
+		"How would <your thought> respond if lost in the vast Sahara desert?",
+		"If <your thought>'s personality was manifested in the weather, what would that weather be?",
+		"What would <your thought> taste like?",
+		"How does <your thought> move through water?"
 	]
 }
