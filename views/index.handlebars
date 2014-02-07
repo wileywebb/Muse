@@ -9,33 +9,21 @@
 </head>
 <body>
 			
-	<div class="logo">
-		<h1>muse.</h1>
-	</div>
-				
+	<div class="logo">muse.</div>
 	<div class="input_muse">
 		<form class="input_muse_form" method="post" action="/tile">
-			<textarea name="input_muse" placeholder="what are you writing about?"></textarea>
+			<textarea id="text_input" name="input_muse" placeholder="what are you writing about?"></textarea>
 			<input id="submit_button" type="submit" value=" > " />
 		</form>
 	</div>
-
-	<a href="#">			
-		<div class="past_sessions">
-			<h1>view past sessions</h1>
-		</div>
+	<a href="/tile.handlebars">			
+		<div class="past_sessions">view past sessions</div>
 	</a>
-
-	<a href="#">			
-		<div class="tutorial">
-			<h1>tutorial</h1>
-		</div>
+	<a href="/tile">			
+		<div class="tutorial">tutorial</div>
 	</a>
-
-	<a href="#">			
-		<div class="log_out">
-			<h1>log out</h1>
-		</div>
+	<a href="/tile">			
+		<div class="log_out">log out</div>
 	</a>
 
 </body>
