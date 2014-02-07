@@ -1,0 +1,79 @@
+{
+	"wordBank": [
+		"never-washed", 
+		"cozy fireplace",
+		"a gold locket", 
+		"a old photograph", 
+		"an atlas",
+		"crunchy",
+		"brittle"
+		"delicate", 
+		"foamy", 
+		"warm embrace",
+		"enthusiasm",
+		"conversation",
+		"cursing",
+		"resentment",
+		"soft clay",
+		"marble sculpture", 
+		"jagged lines",
+		"red", 
+		"purple velvet", 
+		"sunset orange",
+		"a hopeful prayer",
+		"a poem in the sand", 
+		"hopeless wandering", 
+		"carefree sun",
+		"wistful fog",
+		"sumptuous",
+		"metallic",
+		"dirty",
+	],
+	"nodes": [
+		{
+			"id": "n0",
+			"label": "never-washed",
+			"x": 0,
+			"y": 0,
+			"size": 3
+		},
+		{
+			"id": "n1",
+			"label": "cozy fireplace",
+			"x": 3,
+			"y": 4,
+			"size": 3
+		},
+		{
+			"id": "n2",
+			"label": "a gold locket",
+			"x": 5,
+			"y": 2,
+			"size": 3
+		},
+		{
+			"id": "n3",
+			"label": "atlas",
+			"x": 1,
+			"y": 4,
+			"size": 3
+		}
+	],
+	"edges": [
+		{
+			"id": "e1",
+			"source": "n0",
+			"target": "n2"
+		},
+		{
+			"id": "e2",
+			"source": "n0",
+			"target": "n3"
+		},
+		{
+			"id": "e3",
+			"source": "n1",
+			"target": "n2"
+		}
+	]
+}
