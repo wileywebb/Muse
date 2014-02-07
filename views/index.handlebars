@@ -1,25 +1,42 @@
 <html>
 <head>
-
 	<title>{{title}}</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link href="stylesheets/style.css" rel="stylesheet">
+
 </head>
 <body>
-
-<a href="#">			
-	<div class="">
-		<h1>
+			
+	<div class="logo">
+		<h1>muse.</h1>
 	</div>
-</a>
-
-	<div class="">
-
-	</div>
-
-	<div class="">
+				
+	<div class="input_muse">
+		<form class="input_muse_form" method="post" action="/tile">
+			<textarea name="input_muse" placeholder="what are you writing about?"></textarea>
+			<input id="submit_button" type="submit" value=" > " />
+		</form>
 	</div>
 
-	<div class="">
-	</div>
+	<a href="#">			
+		<div class="past_sessions">
+			<h1>view past sessions</h1>
+		</div>
+	</a>
+
+	<a href="#">			
+		<div class="tutorial">
+			<h1>tutorial</h1>
+		</div>
+	</a>
+
+	<a href="#">			
+		<div class="log_out">
+			<h1>log out</h1>
+		</div>
+	</a>
 
 </body>
 </html>
