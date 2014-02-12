@@ -14,6 +14,8 @@ var result = require('./routes/result');
 var pastsessions = require('./routes/pastsessions');
 var tutorial = require('./routes/tutorial');
 var login = require('./routes/login');
+var continuous = require('./routes/continuous');
+
 // Example route
 // var user = require('./routes/user');
 
@@ -46,6 +48,7 @@ app.get('/tutorial', tutorial.view);
 app.get('/login', login.view);
 app.get('/result', result.view);
 app.get('/tile', tile.view);
+app.get('/continuous', continuous.view)
 app.post('/tile', tile.view);
 // Example route
 // app.get('/users', user.list);
